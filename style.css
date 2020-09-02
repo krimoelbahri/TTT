@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Indie Flower", cursive;
+    background-color: #b5b4b0;
+  }
+  body h1 {
+    color: white;
+    font-weight: 600;
+    border-bottom: 2px solid white;
+    font-size: 3rem;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: -2px 11px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 11px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 11px 20px 0px rgba(0, 0, 0, 0.75);
+    height: 80vh;
+    width: 70vw;
+    background-color: #495e4b;
+    border-radius: 5px;
+  }
+  .main .playerQuery {
+    font-size: 2rem;
+  }
+  .main button {
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+    font-family: "Indie Flower", cursive;
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 1rem;
+  }
+  .main .gameTypeButtons {
+    width: auto;
+    height: auto;
+  }
+  .main .playerCharButtons {
+    display: none;
+    width: 5rem;
+    height: 3.5rem;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(3, 33.3%);
+    height: 80%;
+    width: 80%;
+  }
+  .board .cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .board .cell p {
+    font-size: 5rem;
+  }
+  
+  .topRow {
+    border-bottom: 3px solid white;
+  }
+  
+  .center {
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+  }
+  
+  .bottomRow {
+    border-top: 3px solid white;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
